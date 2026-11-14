@@ -4,16 +4,6 @@
   "compatibility_date": "2024-09-23",
   "compatibility_flags": ["nodejs_compat"],
   "pages_build_output_dir": "./dist",
-  "r2_buckets": [
-    {
-      "binding": "PROOF_STORAGE",
-      "bucket_name": "cdsure-proofs"
-    },
-    {
-      "binding": "PROOFS",
-      "bucket_name": "cdsure-proofs"
-    }
-  ],
   "vars": {
     "FIREBASE_PROJECT_ID": "cdsure-c360f",
     "ADMIN_EMAILS": "bunnynurse53@gmail.com,admin@cdsuretasks.com",
