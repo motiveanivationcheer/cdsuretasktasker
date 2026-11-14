@@ -1,0 +1,36 @@
+{
+  "name": "cdsuretasktasker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --port 3000 --host 0.0.0.0",
+    "build": "astro build",
+    "preview": "astro preview --port 3000 --host 0.0.0.0",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "12.6.13",
+    "@astrojs/react": "^4.4.2",
+    "@astrojs/tailwind": "^6.0.2",
+    "@google/genai": "^2.4.0",
+    "astro": "^5.18.2",
+    "canvas-confetti": "^1.9.4",
+    "dotenv": "^17.2.3",
+    "firebase": "^13.1.0",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}
