@@ -10,17 +10,6 @@
       "database_name": "cdsure-db",
       
     }
-  ],
-  "r2_buckets": [
-    {
-      "binding": "PROOF_STORAGE",
-      "bucket_name": "cdsure-proofs"
-    },
-    {
-      "binding": "PROOFS",
-      "bucket_name": "cdsure-proofs"
-    }
-  ],
   "vars": {
     "FIREBASE_PROJECT_ID": "cdsure-c360f",
     "ADMIN_EMAILS": "bunnysusanfabio@gmail.com",
