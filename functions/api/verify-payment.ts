@@ -1,7 +1,7 @@
----
-export async function GET({ request, locals }: any) {
-  const env: any = (locals as any)?.runtime?.env;
-  const url = new URL(request.url);
+
+export async function onRequest(context: any) {
+  const env = context.env;
+  const url = new URL(context.request.url);
   const reference = url.searchParams.get('reference');
 
   if (!reference) {
