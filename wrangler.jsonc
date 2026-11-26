@@ -10,6 +10,7 @@
       "database_name": "cdsure-db",
       
     }
+  ],
   "vars": {
     "FIREBASE_PROJECT_ID": "cdsure-c360f",
     "ADMIN_EMAILS": "bunnysusanfabio@gmail.com",
